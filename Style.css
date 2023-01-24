@@ -1,4 +1,33 @@
 body{
     background-color: pink;
     color: red;
+    display: flex;
+    flex-direction: column;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#container{
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+#grid{
+    display: flex;
+    width: fit-content;
+    flex-direction: column;
+    border: 3px red solid;
+}
+
+#heading{
+    display: flex;
+    justify-content: center;
+}
+
+.col{
+    display: flex;
+    flex-wrap: wrap;
+}
+.row {
+    border: 1px white solid;
+    height: 2em;
+    width: 2em;
 }
