@@ -62,11 +62,13 @@ function reset() {
 }
 
 function wipe() {
-    for(x=0; x< document.getElementsByClassName("black").length; x++) { //THIS IS CURRENTLY LOOPING THE CODE HALF THE NUMEBR OF TIMES THE CLASS OCCURS
-    document.getElementsByClassName("black").row.classList.remove('black');   
-}
+    const wipes = document.querySelectorAll(".black")
+    wipes.forEach ((wipes) => {
+    wipes.classList.remove('black')
+})
 }
 
 function blackClick(){
     this.classList.add('black'); 
+    this.id = 'black';
 }
