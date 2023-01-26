@@ -4,6 +4,20 @@ body{
     display: flex;
     flex-direction: column;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+}
+#sizeDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1em;
+
+}
+
+#gridNum{
+    width: 200px;
+    
 }
 #container{
     width: auto;
@@ -12,7 +26,8 @@ body{
 }
 #grid{
     display: flex;
-    width: fit-content;
+    width: 500px;
+    height:500px;
     flex-direction: column;
     border: 3px red solid;
 }
@@ -25,9 +40,18 @@ body{
 .col{
     display: flex;
     flex-wrap: wrap;
+    flex-grow: 1;
 }
+
 .row {
     border: 1px white solid;
-    height: 2em;
-    width: 2em;
+    flex-grow: 1;
+}
+
+.black{
+    background-color: rgb(0, 0, 0);
+}
+
+.wipe{
+    background-color: pink;
 }

@@ -5,12 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Etch-a-Sketch</title>
-    <link rel="stylesheet" type="text/css" href="/Etch-a-Sketch/Style.css" />
+    <link rel="stylesheet" type="text/css" href="/Style.css" />
 </head>
-<script src="/Etch-a-Sketch/Javascript.js" defer></script>
+<script src="/Javascript.js" defer></script>
 <body>
     <div id="heading"><h1>Etch-a-Sketch</h1></div>
-    <div id="container"></div><div id="grid"></div></div>
+    <div id="sizeDiv">
+        <h3>How many squares per side? (Min: 4)</h3>
+        <input id="gridNum">
+        <button onclick="add()">Go</button>
+        <button onclick="reset()">Reset Size</button>
+        <button onclick="wipe()">Wipe Clean</button>
+    </div>
+    <div id="container">
+    </div>
+    <div id="grid"></div></div>
     </div>
 </body>
 </html>
