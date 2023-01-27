@@ -38,7 +38,7 @@ for(x=0; x< document.getElementById('gridNum').value; x++) {
 }
 }
     else {
-    alert('Woops! Something went wrong. Make sure you entered a number between 0-100!')
+    alert('Woops! Something went wrong. Make sure you entered a number between 2-100!')
                  
 
     }
