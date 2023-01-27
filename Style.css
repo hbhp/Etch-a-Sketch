@@ -6,12 +6,20 @@ body{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     justify-content: center;
 }
-#sizeDiv{
+
+#sizeDivOut{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 1em;
+}
+#sizeDivIn{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-bottom: 1em;
+    width: 500px;
 
 }
 

@@ -21,7 +21,7 @@ for(x=0; x< gridNum; x++) {
 }
 
 function add(){
-    if (document.getElementById('gridNum').value > 3 && document.getElementById('gridNum').value < 101){
+    if (document.getElementById('gridNum').value > 2 && document.getElementById('gridNum').value < 101){
     let grid = document.getElementById('grid');
     grid.innerHTML = '';
 for(x=0; x< document.getElementById('gridNum').value; x++) {

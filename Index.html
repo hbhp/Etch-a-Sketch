@@ -10,16 +10,21 @@
 <script src="/Javascript.js" defer></script>
 <body>
     <div id="heading"><h1>Etch-a-Sketch</h1></div>
-    <div id="sizeDiv">
-        <h3>How many squares per side? (Min: 4)</h3>
-        <input id="gridNum">
-        <button onclick="add()">Go</button>
-        <button onclick="reset()">Reset Size</button>
-        <button onclick="wipe()">Wipe Clean</button>
+    
     </div>
     <div id="container">
+        <div id="grid"></div>
     </div>
-    <div id="grid"></div></div>
+    <div id="sizeDivOut">
+        <h3>How many squares per side?</h3>
+        <div id="sizeDivIn">
+            <input id="gridNum" placeholder="Min 2, Max 100">
+            <div id="buttons">
+            <button onclick="add()">Go</button>
+            <button onclick="reset()">Reset Size</button>
+            <button onclick="wipe()">Wipe Clean</button>
+        </div>
+        </div>
     </div>
 </body>
 </html>
